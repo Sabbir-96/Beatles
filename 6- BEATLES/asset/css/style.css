@@ -1,0 +1,706 @@
+*{
+   padding: 0;
+    margin: 0;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,span,header,nav,div,ul,ol,li,footer{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* 
+     font-family: "Open Sans", sans-serif;
+      font-family: "Oswald", sans-serif;
+    
+    */
+}
+
+/* header part css star */
+header{
+    background-color: #0872b9;
+    padding-top: 10px;
+}
+.header_icon ul{
+    float: right;
+}
+
+.header_icon ul li{
+    float: left;
+    padding: 0 13px;
+}
+
+.header_icon ul li a{
+    color: white;
+    transition: all linear .3s;
+}
+
+.header_icon ul li a:hover{
+    color: black;
+    transition: all linear .3s;
+}
+
+.welcome p{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;   
+}
+/* header part css end */
+
+/* navigation part css strat */
+.navbar{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_logo{
+    padding: 20px 0;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+    color: #353535;
+}
+
+.navbar-nav .nav-item .active{
+    color: #5bc5f4;
+}
+
+.navbar-nav .nav-item .nav-link:active{
+    color: #5bc5f4;
+}
+
+
+/* navigation part css end */
+
+/* banner part in css start */
+.banner{
+    background-image: url(../image/back.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+   
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.back_contain{
+    text-align: end;
+}
+
+.back_contain h4{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.back_contain h1{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px bold;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.back_contain h6{
+color: #e5e5e5;
+font-family: "Open Sans", sans-serif;
+font-size: 13px;
+margin-bottom: 30px;
+}
+
+.back_contain a{   
+    border: 1px solid white;
+    font-family: "Oswald", sans-serif;
+    font-size: 14px medium;
+    color: white;
+    padding: 5px 22px;
+    margin-left: 10px;
+    transition: all linear .2s;
+}
+
+.back_contain a:hover{
+    border: 1px solid #0872b9;
+    background-color: #0872b9;
+    transition: all linear .2s;
+}
+
+/* banner part in css end */
+
+/* about part in css start */
+
+.about_head{
+    text-align: center;
+}
+.about_head h1{
+    margin-top: 60px;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+}
+
+.about_head img{
+    width: 60px;
+    margin-right: 35px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.about_contain .about1st{
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 30px;
+    line-height: 26px;
+}
+
+.about_contain .about2nd{
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 30px;
+    line-height: 26px;
+}
+
+.clear{
+    clear: both;
+}
+/* about part in css end */
+
+/* our service part in css start */
+.service_head{
+    text-align: center;
+}
+.service_head h1{
+    margin-top: 60px;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+}
+
+.service_head img{
+    width: 60px;
+    margin-right: 75px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.designe{
+    position: relative;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.designe1{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid #f1f1f1;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -37.5px;
+}
+
+.designe1:hover{
+    border: 3px solid #5bc5f4;
+    background-color: white;
+}
+
+.designe2{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.designe2:hover{
+    background-color: #5bc5f4;
+}
+
+.designe_contain{
+    width: 350px;
+    height: 165px;
+    background-color: #f1f1f1;
+}
+
+.designe_contain:hover{
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.designe_contain h3{
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-weight: medium;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.designe_contain p{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+/* our service part in css end */
+
+
+/* our portfolio part css start */
+.portfolio_head{
+    text-align: center;
+}
+.portfolio_head h1{
+    margin-top: 60px;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+}
+
+.portfolio_head img{
+    width: 60px;
+    margin-right: 90px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.photo{
+    position: relative;
+}
+
+.photo2{
+    position: relative; 
+    margin-top: 20px;
+}
+
+.gal_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.photo:hover .gal_overlay{
+ transform: scale(1);
+ transition: all linear .3s;
+} 
+
+.photo2:hover .gal_overlay{
+    transform: scale(1);
+    transition: all linear .3s;
+} 
+
+.gal_overlay a{
+   width: 40px;
+   height: 40px;
+   background-color: #5bc5f4;
+   border-radius: 50%;
+   text-align: center;
+   display: block;
+   line-height: 40px;
+}
+/* our portfolio part css end */
+
+/* our team part css start */
+.team_head{
+    text-align: center;
+}
+.team_head h1{
+    margin-top: 60px;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+}
+
+.team_head img{
+    width: 60px;
+    margin-right: 33px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.team1 h3{
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    padding-left: 70px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.team1 h3:hover{
+    color: #5bc5f4;
+}
+.team1 h5{
+    font-size: 14px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    padding-left: 70px;
+    margin-top: 10px;
+}
+
+.team1{
+    margin: 0 10px;
+    position: relative;
+}
+
+
+.team1 img:hover{
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+    transition: all linear .3s;
+}
+.team_overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0%;
+    height: 0%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .2s;
+}
+
+.team1:hover .team_overlay{
+    transform: scale(1);
+    transition: all linear .3s;
+    width: 35%;
+    height: 85%;
+}
+
+.overlay_icon ul{
+    font-size: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.overlay_icon ul li{
+    padding-top: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+   
+}
+
+.overlay_icon ul li a{
+    color: white;
+    transition: all linear .3s;  
+}
+
+.overlay_icon ul li:hover{
+    background-color: #5bc5f4;
+    transition: all linear .3s;
+}
+/* our team part css end */
+
+
+/* testimonial part in css start */
+.test_head{
+    text-align: center;
+}
+.test_head h1{
+    margin-top: 120px;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.test_head img{
+    width: 60px;
+    margin-right: 60px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.test_img1{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.test_contain{
+    width: 500px;
+    height: 180px;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.triangle { 
+    width: 0; 
+    height: 0; 
+    border-bottom: 40px solid  #f1f1f1; 
+    border-left: 40px solid transparent;   /*eta 3 kon banaTE LAGE*/
+    border-right: 40px solid  transparent; 
+    position: absolute;
+    top: -30px;
+  }
+
+.test_box_contain h2{
+    margin-top: 20px;
+     font-size: 16px;
+     font-weight: 500;
+     font-family: "Oswald", sans-serif;
+     color: #494949;
+     text-transform: uppercase;
+  }
+
+  .test_box_contain .icon{
+    margin-top: 10px;
+     font-size: 13px;
+     color: #5bc5f4;
+  }
+
+  .test_box_contain h4{
+     margin-top: 10px;
+     font-size: 13px;
+     font-weight: 400;
+     font-family: "Oswald", sans-serif;
+     color: #494949;
+  }
+
+  .test_box_contain p{
+    margin-top: 20px;
+     font-size: 13px;
+     font-weight: 400;
+     font-family: "Oswald", sans-serif;
+     color: #494949;
+     text-transform: capitalize;
+     
+  }
+/* testimonial part in css end */
+
+
+/* contact part in css start */
+.contact{
+    margin-top: 60px;
+    height: 300px;
+    background-color: #353535;
+}
+.fot_logo img{
+    margin-top: 20px;
+}
+
+.fot_logo p{
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #f1f1f1;
+    margin-top: 25px;
+}
+
+.con h2{
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    color: #f1f1f1;
+}
+.con_details{
+    display: flex;
+    margin-top: 30px;
+    color: #f1f1f1;
+    
+}
+.con_details .icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #5bc5f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+.con_details .num{
+    padding-left: 10px;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.gamil_details{
+    display: flex;
+    color: #f1f1f1;
+    margin-top: 10px;
+}
+.gamil_details .icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #5bc5f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.gamil_details .gmail{
+    padding-left: 10px;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.global_details{
+    display: flex;
+    color: #f1f1f1;
+    margin-top: 10px;
+}
+.global_details .icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #5bc5f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.global_details .global{
+    padding-left: 10px;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.main_link{
+    display: flex;
+    
+}
+
+.first_link ul li{
+    padding-top: 20px;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.first_link ul li a{
+    color: #f1f1f1;
+    transition: all linear .3s;
+}
+.first_link ul li a:hover{
+    color: #5bc5f4;
+    transition: all linear .3s;
+}
+.second_link  ul li{
+    padding-top: 20px;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    padding-left: 25px;
+}
+
+.second_link ul li a{
+    color: #f1f1f1;
+    transition: all linear .3s;
+}
+
+.second_link ul li a:hover{
+    color: #5bc5f4;
+    transition: all linear .3s;
+}
+
+.picture{
+    margin-top: 30px;
+}
+
+/* contact part in css end */
+
+/* footer part in css start */
+.footer_contain{
+    height: 45px;
+    background-color: #555555;
+}
+.footer_contain p{
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    color: #f1f1f1;
+    text-align: center;
+    line-height: 45px;
+}
+
+.footer_contain p span{
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #5bc5f4;
+}
+
+
+/* footer part in css end */
+
+
+.slick-dots li {
+	width: 12px;
+	height: 12px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.slick-dots li.slick-active{
+    background-color: #0872b9 ;
+}
+
+.s_l_icon {
+	position: absolute;
+	top: 40%;
+	left: -5%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.s_r_icon {
+    position: absolute;
+    top: 40%;
+    right: -5%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
